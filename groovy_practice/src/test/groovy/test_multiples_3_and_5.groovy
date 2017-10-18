@@ -20,4 +20,15 @@ class MultiOf3and5Test extends Specification {
     then:
     result == 23
   }
+
+  def "return sum of all multiples below 1000"() {
+    def limit = 1000
+    Multi3and5 calculator1 = new Multi3and5(limit)
+
+    when:
+    def result = calculator1.sumOfMultiples()
+
+    then:
+    result == 233168
+  }
 }
