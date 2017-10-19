@@ -4,17 +4,25 @@ class FibonacciSpec extends Specification {
 
   def "first ten terms of fibonacci sequence"() {
     when:
-    def terms = Fibonacci.firstTerms(10)
+    def terms = Fibonacci.termsLessThan(35)
     
     then:
-    terms == [1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+    terms == [2, 8, 34]
   }
 
-  def "sums first ten terms of fibonacci sequence"() {
+  def "sums even values from first ten terms of fibonacci sequence"() {
     when:
-    def sum = Fibonacci.sumTerms(10)
+    def sum = Fibonacci.sumTerms(35)
 
     then:
-    sum == 231
+    sum == 44
+  }
+
+  def "sums first 4 million terms of fibonacci sequence"() {
+    when:
+    def sum = Fibonacci.sumTerms(4000000)
+
+    then:
+    sum == 4613732
   }
 }
