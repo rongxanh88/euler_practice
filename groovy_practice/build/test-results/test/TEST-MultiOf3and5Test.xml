@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MultiOf3and5Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-10-19T17:26:39" hostname="baos-mbp.lan" time="0.032">
+<testsuite name="MultiOf3and5Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-10-23T16:25:04" hostname="baos-mbp.lan" time="0.023">
   <properties/>
-  <testcase name="find all multiples of 3 and 5 below 10" classname="MultiOf3and5Test" time="0.015"/>
-  <testcase name="return sum of all multiples below 10" classname="MultiOf3and5Test" time="0.004"/>
-  <testcase name="return sum of all multiples below 1000" classname="MultiOf3and5Test" time="0.013"/>
+  <testcase name="find all multiples of 3 and 5 below 10" classname="MultiOf3and5Test" time="0.012"/>
+  <testcase name="return sum of all multiples below 10" classname="MultiOf3and5Test" time="0.002"/>
+  <testcase name="return sum of all multiples below 1000" classname="MultiOf3and5Test" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
